@@ -1,6 +1,6 @@
 # Android-Image-Slider
+Android Image Slider, recorded from Android Emulator.
 
-Simple app screenshot.
+<a href="url"><img src="https://raw.githubusercontent.com/MtsRovari/Android-Image-Slider/master/demo.gif" align="center" height="640" width="320" style="padding:32px"/>
 
-<a target='_blank'><img class='header-img' width=200px height=350px src='https://raw.githubusercontent.com/MtsRovari/Android-Image-Slider/master/app/src/main/res/drawable/slider_photo.png' /></a>
 
