@@ -28,9 +28,9 @@ public class MainActivity extends AppCompatActivity {
     private Handler handler = new Handler();
 
     private static String[] array_imgs = new String[] {
-            "https://flipcar-server.liveonsolutions.com/images/volkswagen.png",
-            "https://flipcar-server.liveonsolutions.com/images/bmw.png",
-            "https://flipcar-server.liveonsolutions.com/images/citroen.png"
+            "https://raw.githubusercontent.com/MtsRovari/Android-Image-Slider/master/screenshots/ic_github.png",
+            "https://raw.githubusercontent.com/MtsRovari/Android-Image-Slider/master/screenshots/ic_firebase.png",
+            "https://raw.githubusercontent.com/MtsRovari/Android-Image-Slider/master/screenshots/ic_kotlin.png"
     };
 
     @Override
@@ -65,7 +65,10 @@ public class MainActivity extends AppCompatActivity {
             public void onPageScrollStateChanged(int state) {}
         });
 
-//        startAutoSlider(adapterImageSlider.getCount());
+        /**
+         * auto slider
+         */
+        startAutoSlider(adapterImageSlider.getCount());
     }
 
     private void addBottomDots(LinearLayout layout_dots, int size, int current) {
